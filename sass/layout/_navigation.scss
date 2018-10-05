@@ -1,0 +1,60 @@
+.nav{
+    &-side{
+        position:fixed;
+        background:$color-5;
+        width:320px;
+        height:100%;
+        right:0;
+        bottom:0;
+        transition: all .4s;
+        display:none;
+        padding:2rem;
+        z-index:1;
+
+        &-close{
+            
+            padding:.5rem 1rem;
+            color:$color-3;
+
+            span{
+                cursor: pointer;
+            }
+        }
+        
+    }
+    &-activator{
+        position:fixed;
+        top:3rem;
+        right:2rem;
+        color:white;
+        background:black;
+        padding:.5rem 1rem;
+        cursor: pointer;
+    }
+    &-dismiss{
+        color:white;
+    }
+    &-list{
+        padding-top: 1.2rem;
+        ul{
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+        &-item{
+            border-bottom:2px solid rgba($color-4,.6);
+            line-height: 2.5;
+        }
+
+        &-link{
+            text-decoration: none;
+            &:visited{
+                text-decoration:none;
+            }
+            &:hover,&:active{
+                color:$color-4;
+                text-decoration:none;
+            }
+        }
+    }
+}

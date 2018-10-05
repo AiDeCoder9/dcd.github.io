@@ -1,0 +1,63 @@
+.section-introduction{
+    width:100%;
+    position: absolute;
+    top:30%;
+    
+}
+
+.intro{
+
+    text-align:center;
+
+    &-title{
+        color:$color-white-1;
+        font-weight:700;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        letter-spacing:4px;
+        font-size:2.2rem;
+        line-height:1.5;
+
+        &:after{
+            content:' ';
+            width:20%;
+            height:5px;
+            display:block;
+            margin:1rem 0;
+            background:$color-2;
+        }
+    }
+    &-des{
+        font-family: 'Roboto Slab', serif;
+        color:$color-2;
+    }
+
+    &-nav{
+        transform:rotate(270deg);
+        display:block;
+        text-transform: uppercase;
+        margin-top:4rem;
+        color:white;
+        font-weight:500;
+        letter-spacing:2px;
+    }
+
+
+    &-number{
+        font-size:4.4rem;
+        color:$color-2;
+        font-weight:600;
+        letter-spacing:5px;
+        display: block;
+        text-align:center;
+
+        &:after{
+            content:' ';
+            display:block;
+            margin:0 auto;
+            width:4px;
+            height:5rem;
+            background:$color-2;
+        }
+    }
+}
