@@ -1,4 +1,14 @@
-.nav-background{
-    background:linear-gradient(to right bottom,rgba($color-1,.4),rgba($color-5,.6));
-}
 
+.line-heading{
+    display:flex!important;
+    width:100%;
+    align-items: center;
+
+}
+.line-heading::before,.line-heading::after{
+    content:'';
+    background:gray;
+    height:1px;
+    margin:.2em;
+    flex:2;
+}

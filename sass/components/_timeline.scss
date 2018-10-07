@@ -3,6 +3,20 @@
     margin:0;
     padding:0;
 
+    &-title{
+        padding-top:2rem;
+        h1{
+            font-weight:300;
+        }
+        p{
+            font-size:2rem;
+        }
+        span{
+            font-size:3rem;
+            
+        }
+    }
+
     li{
 
     }
@@ -28,7 +42,22 @@
         }
 
     }
-
+    &-end{
+        width:10rem;
+        height:10rem;
+        border-radius: 50%;
+        background:$color-3;
+        color:white;
+        border:10px solid $color-2;
+        position: relative;
+        p{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-weight: 600;
+        }
+    }
     &-img{
         position: relative;
         img{
@@ -43,6 +72,7 @@
 
         
         }
+
         &:after{
             content:' ';
             width:5px;
