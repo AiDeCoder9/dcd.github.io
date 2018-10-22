@@ -62,46 +62,25 @@
       color: #30343F;
       text-decoration: none; }
 
-.main-content {
-  padding: 10%;
-  flex: 1 1 80%;
-  min-height: 100vh; }
+.section-portfolio {
+  margin-top: 6rem;
+  background: #fafcfb;
+  padding-bottom: 3rem; }
 
-.portfolio {
-  display: grid;
-  height: 100%;
-  grid-template-rows: repeat(8, 1fr);
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  grid-auto-rows: minmax(200px, auto); }
-  .portfolio-item {
-    background: #89023E;
-    color: #EAF2EF;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    background-size: cover;
-    background-position: top left;
-    transition: all ease-in-out 300ms;
-    position: relative;
-    z-index: 10; }
-    .portfolio-item.medium {
-      grid-row: span 2;
-      grid-column: span 2; }
-    .portfolio-item.small {
-      grid-row: span 1;
-      grid-column: span 1; }
-    .portfolio-item.large {
-      grid-row: span 3;
-      grid-column: span 3; }
-    .portfolio-item.tall {
-      grid-row: span 3;
-      grid-column: span 2; }
-    .portfolio-item.wide {
-      grid-row: span 2;
-      grid-column: span 3; }
+.portfolio-img {
+  margin-top: -4rem; }
+
+.portfolio-description {
+  padding: 2rem; }
+  .portfolio-description-title {
+    font-size: 1.5rem;
+    color: #abcbbf;
+    font-family: 'Montserrat', sans-serif; }
+  .portfolio-description-sub {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem; }
+  .portfolio-description p {
+    color: #558975; }
 
 .section-introduction {
   width: 100%;
@@ -204,7 +183,7 @@
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background: #89023E;
+    background: #01295F;
     color: white;
     border: 10px solid #EAF2EF;
     position: relative; }
@@ -233,3 +212,27 @@
       margin: 1rem 0;
       background: #EAF2EF;
       margin: 0 auto; }
+
+.mycarousel-inner img {
+  height: 40rem !important; }
+
+.mycarousel-indicator {
+  bottom: -10rem;
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%; }
+  .mycarousel-indicator .active {
+    background: rgba(234, 242, 239, 0.8);
+    border-bottom: 4px solid #3166AF; }
+  .mycarousel-indicator li {
+    text-indent: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0; }
+  .mycarousel-indicator-item {
+    min-height: 10rem;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    border: 1px solid #EAF2EF; }

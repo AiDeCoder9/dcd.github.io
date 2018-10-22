@@ -1,62 +1,30 @@
-.main-content{
-    padding:10%;
-    flex:1 1 80%;
-    min-height: 100vh;
+.section-portfolio{
+    margin-top:6rem;
+    background:lighten($color-2,5%);
+    padding-bottom:3rem;
+   
 }
 
-
 .portfolio{
+    &-img{
+        margin-top:-4rem;
+    }
 
-    display: grid;
-    height: 100%;
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows:minmax(200px,auto);
+    &-description{
+        padding:2rem;
 
-    
-    &-item{
-
-        background:$color-3;
-        color:$color-2;
-        font-weight:600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-        font-size: 1.5em;
-        background-size: cover;
-        background-position: top left;
-        transition: all ease-in-out 300ms;
-        position: relative;
-        z-index: 10;
-
-
-        &.medium{
-            grid-row: span 2;
-            grid-column: span 2;
+        &-title{
+            font-size:1.5rem;
+            color:darken($color-2,20%);
+            font-family: 'Montserrat', sans-serif;
         }
-
-        &.small{
-            grid-row: span 1;
-            grid-column: span 1;
+        &-sub{
+            font-family: 'Roboto Slab', serif;
+            font-size:1.8rem;
+            
         }
-        &.large{
-            grid-row: span 3;
-            grid-column: span 3;
+        p{
+            color:darken($color-2,50%);
         }
-
-        &.tall {
-            grid-row: span 3;
-            grid-column: span 2;
-          }
-          
-          &.wide {
-            grid-row: span 2;
-            grid-column: span 3;
-          }
-
-
     }
 }

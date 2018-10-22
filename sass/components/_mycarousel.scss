@@ -1,0 +1,33 @@
+.mycarousel{
+    &-inner{
+        img{
+            height:40rem!important;
+        }
+    }
+    &-indicator{
+        bottom:-10rem;
+        margin:0;
+        margin-left:10%;
+        margin-right:10%;
+
+        .active{
+            background:rgba($color-2,.8);
+            border-bottom:4px solid $color-8;
+        }
+        li{
+            text-indent: 0;
+            height:100%;
+            width:100%;
+            margin:0;
+            
+        }
+        &-item{
+            min-height:10rem;
+            border-radius:0;
+            display: flex;
+            flex-direction: column;
+            word-wrap: break-word;
+             border:1px solid $color-2;
+        }
+    }
+}
