@@ -10,6 +10,20 @@
   margin: .2em;
   flex: 2; }
 
+.heading {
+  padding-top: 1rem; }
+  .heading-main {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #3166AF; }
+  .heading p {
+    color: #30343F;
+    font-size: 1.14rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px; }
+
 .header {
   background: url("../img/nav1.jpeg");
   background-size: cover;
@@ -169,6 +183,36 @@
       background: #3772c3; }
     .contact-box__3 {
       background: #336bb7; }
+
+.footer {
+  background: url("../img/footer.jpg");
+  background-size: cover; }
+  .footer-elements {
+    padding: 1rem 0 10rem 0; }
+  .footer-hire {
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif; }
+  .footer-email {
+    margin-top: 1rem; }
+    .footer-email:hover, .footer-email:active, .footer-email:visited, .footer-email:link {
+      text-decoration: none;
+      color: #30343F;
+      background: #EAF2EF;
+      display: inline-block;
+      padding: 1rem;
+      font-weight: 600;
+      border-radius: 4px; }
+    .footer-email:hover {
+      transform: translate(-4px) scale(1.1);
+      transition: all .4s;
+      background: #01295F;
+      color: white; }
+  .footer-nav a {
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #3166AF; }
 
 .timeline {
   list-style: none;
