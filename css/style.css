@@ -140,6 +140,36 @@
   .services-box:hover i {
     color: #89023E; }
 
+.section-contact {
+  margin-top: 4rem; }
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto); }
+  .contact-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center; }
+    .contact-box-icon {
+      color: white;
+      font-size: 3.5rem;
+      padding: 1rem; }
+    .contact-box-content h5 {
+      color: white;
+      letter-spacing: 2px; }
+    .contact-box-content span {
+      color: #EAF2EF;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-style: italic; }
+    .contact-box__1 {
+      background: #477fcc; }
+    .contact-box__2 {
+      background: #3772c3; }
+    .contact-box__3 {
+      background: #336bb7; }
+
 .timeline {
   list-style: none;
   margin: 0;

@@ -1,0 +1,44 @@
+.section-contact{
+    margin-top:4rem;
+}
+.contact{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(200px,auto);
+
+    &-box{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+
+        &-icon{
+            color:white;
+            font-size:3.5rem;
+            padding:1rem;
+        }
+
+        &-content{
+            h5{
+                color:white;
+                letter-spacing:2px;
+            }
+            span{
+                color:$color-2;
+                font-weight: 400;
+                letter-spacing:4px;
+                font-style: italic;
+            }
+        }
+
+
+        &__1{
+            background:lighten($color-8,10%);
+        }
+        &__2{
+            background:lighten($color-8,5%);
+        }
+        &__3{
+            background:lighten($color-8,2%);
+        }
+    }
+}
