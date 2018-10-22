@@ -213,11 +213,27 @@
       background: #EAF2EF;
       margin: 0 auto; }
 
+.mycarousel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .mycarousel-content h2 {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 3rem; }
+  .mycarousel-content p {
+    color: #EAF2EF;
+    font-size: 1.1rem; }
+
 .mycarousel-inner img {
-  height: 40rem !important; }
+  height: 100vh !important;
+  filter: brightness(0.8);
+  position: relative; }
 
 .mycarousel-indicator {
-  bottom: -10rem;
+  bottom: 0rem;
   margin: 0;
   margin-left: 10%;
   margin-right: 10%; }
