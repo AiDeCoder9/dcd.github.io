@@ -8,6 +8,9 @@
 .portfolio{
     &-img{
         margin-top:-4rem;
+        @include respond(phone){
+            margin-top:0;
+        }
     }
 
     &-description{

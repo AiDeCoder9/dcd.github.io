@@ -35,6 +35,9 @@
         margin:0;
         margin-left:10%;
         margin-right:10%;
+        @include respond(phone){
+            display: none;
+        }
 
         .active{
             background:rgba($color-2,.8);
