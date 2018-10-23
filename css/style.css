@@ -144,6 +144,63 @@
       height: 5rem;
       background: #EAF2EF; }
 
+.section-testonomial {
+  padding: 4rem 0;
+  background: linear-gradient(to right bottom, #CE0060, rgba(251, 255, 18, 0.4)); }
+
+.testonomial {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 77%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 100%, 50% 77%, 0 100%, 0 0);
+  background: white; }
+  .testonomial-icon {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem 0;
+    display: block;
+    color: #CE0060; }
+  .testonomial-card {
+    position: relative; }
+  .testonomial-text {
+    padding: 0 1rem 9rem 1rem; }
+  .testonomial-user {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%); }
+    .testonomial-user p {
+      color: #3166AF;
+      font-weight: 700;
+      margin-bottom: 4px; }
+    .testonomial-user span {
+      text-align: center;
+      display: block;
+      font-weight: 700;
+      color: #EAF2EF; }
+  .testonomial-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+
+.project-pills {
+  font-size: 1.08rem;
+  font-weight: 700; }
+  .project-pills .active {
+    background: none !important;
+    color: #89023E !important;
+    font-weight: 700;
+    border: 3px solid #89023E;
+    border-radius: 100px; }
+
+.project-item {
+  border: 1px solid #89023E;
+  border-radius: 100px;
+  margin-right: 1rem;
+  min-width: 100px;
+  text-align: center; }
+
 .services-box {
   border-left: 4px solid rgba(234, 242, 239, 0.6);
   padding: 0 2rem;
