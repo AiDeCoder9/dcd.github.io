@@ -223,6 +223,24 @@ $breakpoint arguement choices
     display: block;
     margin: 0 auto; }
 
+.project-pills {
+  font-size: 1.08rem;
+  font-weight: 700; }
+  .project-pills .active {
+    background: none !important;
+    color: #89023E !important;
+    font-weight: 700;
+    border: 3px solid #89023E;
+    border-radius: 100px; }
+
+.project-item {
+  border: 1px solid #89023E;
+  border-radius: 100px;
+  margin-right: 1rem;
+  min-width: 100px;
+  text-align: center;
+  margin-bottom: 1rem; }
+
 .services-box {
   border-left: 4px solid rgba(234, 242, 239, 0.6);
   padding: 0 2rem;
