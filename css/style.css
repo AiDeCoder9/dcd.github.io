@@ -241,6 +241,39 @@ $breakpoint arguement choices
   text-align: center;
   margin-bottom: 1rem; }
 
+.project-card {
+  background-position: top;
+  height: 400px;
+  transition: 5s;
+  position: relative;
+  cursor: pointer;
+  border-radius: 0;
+  border: 0; }
+  .project-card p {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    background: rgba(48, 52, 63, 0.8);
+    color: white;
+    width: 70%;
+    padding: .5rem 0; }
+  .project-card__1 {
+    background: url("../img/natours.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__2 {
+    background: url("../img/vnhssweb.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__3 {
+    background: url("../img/amejman.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card:hover {
+    background-position: bottom; }
+
 .services-box {
   border-left: 4px solid rgba(234, 242, 239, 0.6);
   padding: 0 2rem;
