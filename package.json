@@ -17,7 +17,5 @@
     "scrollreveal": "^4.0.4",
     "tooltip.js": "^1.2.0"
   },
-  "devDependencies": {
-    "node-sass": "^4.9.3"
-  }
+  "devDependencies": {}
 }
