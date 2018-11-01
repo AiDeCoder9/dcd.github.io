@@ -87,7 +87,7 @@ $breakpoint arguement choices
   background: black;
   padding: .5rem 1rem;
   cursor: pointer;
-  z-index: 2; }
+   }
 
 .nav-dismiss {
   color: white; }
