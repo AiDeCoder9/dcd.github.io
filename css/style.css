@@ -87,7 +87,7 @@ $breakpoint arguement choices
   background: black;
   padding: .5rem 1rem;
   cursor: pointer;
-   }
+  z-index: 2; }
 
 .nav-dismiss {
   color: white; }
@@ -124,13 +124,15 @@ $breakpoint arguement choices
   padding: 2rem; }
   .portfolio-description-title {
     font-size: 1.5rem;
-    color: #abcbbf;
+    color: #1a1a1a;
     font-family: 'Montserrat', sans-serif; }
   .portfolio-description-sub {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.8rem; }
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600; }
   .portfolio-description p {
-    color: #558975; }
+    color: #777777;
+    line-height: 23px; }
 
 .section-introduction {
   width: 100%;

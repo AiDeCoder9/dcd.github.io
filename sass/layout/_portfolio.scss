@@ -18,16 +18,18 @@
 
         &-title{
             font-size:1.5rem;
-            color:darken($color-2,20%);
+            color:#1a1a1a;
             font-family: 'Montserrat', sans-serif;
         }
         &-sub{
-            font-family: 'Roboto Slab', serif;
+            font-family: 'Montserrat', sans-serif;
             font-size:1.8rem;
+            font-weight: 600;
             
         }
         p{
-            color:darken($color-2,50%);
+            color:$color-grey;
+            line-height: 23px;
         }
     }
 }

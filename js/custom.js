@@ -30,7 +30,7 @@ var sticky = nav.offsetTop;
 
 
 
-window.sr=ScrollReveal();
+//window.sr=ScrollReveal();
 // sr.reveal('.header',{
 //     duration:2000,
 //     origin:'top',
