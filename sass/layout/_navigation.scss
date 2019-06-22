@@ -9,7 +9,7 @@
         transition: all .4s;
         display:none;
         padding:2rem;
-        z-index:1;
+        z-index:10000;
 
         &-close{
             
@@ -31,6 +31,7 @@
         padding:.5rem 1rem;
         cursor: pointer;
         z-index:2;
+        
     }
     &-dismiss{
         color:white;

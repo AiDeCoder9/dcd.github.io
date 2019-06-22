@@ -72,7 +72,7 @@ $breakpoint arguement choices
   transition: all .4s;
   display: none;
   padding: 2rem;
-  z-index: 1; }
+  z-index: 10000; }
   .nav-side-close {
     padding: .5rem 1rem;
     color: #89023E; }
@@ -250,17 +250,19 @@ $breakpoint arguement choices
   position: relative;
   cursor: pointer;
   border-radius: 0;
-  border: 0; }
+  border: 0;
+  margin-bottom: 3rem; }
   .project-card p {
     position: absolute;
     bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    left: 0;
     text-align: center;
-    background: rgba(48, 52, 63, 0.8);
+    background: #01295F;
     color: white;
     width: 70%;
-    padding: .5rem 0; }
+    margin-bottom: 0;
+    padding: 1rem 0;
+    font-family: 'Montserrat', sans-serif; }
   .project-card__1 {
     background: url("../img/natours.png");
     background-size: cover;
@@ -271,6 +273,26 @@ $breakpoint arguement choices
     width: 100%; }
   .project-card__3 {
     background: url("../img/amejman.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__4 {
+    background: url("../img/mban.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__5 {
+    background: url("../img/nmicro.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__6 {
+    background: url("../img/login.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__7 {
+    background: url("../img/dashboard.png");
+    background-size: cover;
+    width: 100%; }
+  .project-card__8 {
+    background: url("../img/qtfuel.png");
     background-size: cover;
     width: 100%; }
   .project-card:hover {
@@ -314,35 +336,35 @@ $breakpoint arguement choices
   .contact-box__3 {
     background: #336bb7; }
 
-.footer {
-  background: url("../img/footer.jpg");
-  background-size: cover; }
-  .footer-elements {
-    padding: 1rem 0 10rem 0; }
-  .footer-hire {
-    font-weight: 300;
-    letter-spacing: 4px;
-    font-family: 'Montserrat', sans-serif; }
-  .footer-email {
-    margin-top: 1rem; }
-    .footer-email:hover, .footer-email:active, .footer-email:visited, .footer-email:link {
-      text-decoration: none;
-      color: #30343F;
-      background: #EAF2EF;
-      display: inline-block;
-      padding: 1rem;
-      font-weight: 600;
-      border-radius: 4px; }
-    .footer-email:hover {
-      transform: translate(-4px) scale(1.1);
-      transition: all .4s;
-      background: #01295F;
-      color: white; }
-  .footer-nav a {
-    margin-top: 1rem;
+.footer-elements {
+  padding: 1rem 0 10rem 0; }
+
+.footer-hire {
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif; }
+
+.footer-email {
+  margin-top: 1rem;
+  transition: all .4s;
+  cursor: pointer; }
+  .footer-email:hover, .footer-email:active, .footer-email:visited, .footer-email:link {
     text-decoration: none;
-    font-size: 1.5rem;
-    color: #3166AF; }
+    color: #30343F;
+    background: #01295F;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 600;
+    color: white; }
+  .footer-email:hover {
+    transform: translate(-4px) scale(1.1);
+    cursor: pointer; }
+
+.footer-nav a {
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #3166AF; }
 
 .timeline {
   list-style: none;
